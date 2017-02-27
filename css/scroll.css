@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+}
+
+div#text {
+  width: 640px;
+  margin: 0 auto;
+}
+
+div.scroll_button {
+  width: 128px;
+  height: 128px;
+  margin: 4px;
+  padding: 0px;
+  z-index: 1;
+  position: fixed;
+}
+
+div#scroll_button_up {
+  top: 100px;
+}
+
+div#scroll_button_down {
+  top: 232px;
+}
