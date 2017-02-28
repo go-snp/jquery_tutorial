@@ -1,0 +1,53 @@
+header {
+  text-align: center;
+}
+
+/*******/
+
+#tabbed_box_wrapper {
+  width: 640px;
+  margin: 0 auto;
+}
+
+/*******/
+
+#tab_wrapper {
+  margin: 0 auto;
+}
+
+.tab {
+  float: left;
+  background-color: #CCCCCC;
+  width: 64px;
+  height: 24px;
+  padding: 8px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.tab_selected {
+  background-color: #999999;
+}
+
+/*******/
+
+#content_wrapper {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 4px;
+}
+
+.content_hidden {
+  display: none;
+}
+
+/*******/
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0px;
+  visibility: hidden;
+  content: ".";
+}

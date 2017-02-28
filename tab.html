@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQueryを使ったスクロール</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all" href="./css/tab.css" />
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/tab.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <header>
+        <h2>jQueryを使ったタブサンプル</h2>
+      </header>
+
+      <div id="tabbed_box_wrapper">
+
+        <ul id="tab_wrapper" class="clearfix">
+          <li class="tab tab_selected">タイトル</li>
+          <li class="tab">材料</li>
+          <li class="tab">手順</li>
+          <li class="tab">注意</li>
+        </ul>
+
+        <div id="content_wrapper">
+          <div class="content">
+            <h3>クッキーのレシピ</h3>
+          </div>
+          <div class="content content_hidden">
+            <ul>
+              <li>薄力粉 １２０ｇ</li>
+              <li>無塩バター ３０ｇ</li>
+              <li>砂糖大さじ ３</li>
+              <li>溶き卵大さじ ２</li>
+            </ul>
+          </div>
+          <div class="content content_hidden">
+            <ul class="numbered">
+              <li>バターを湯煎して溶かします</li>
+              <li>砂糖、卵、薄力粉の順で加えながらこねます</li>
+              <li>生地を伸ばして型を抜きます</li>
+              <li>カントリーマアムおいしい</li>
+            </ul>
+          </div>
+          <div class="content content_hidden">
+            <p>季節限定フレーバーは当たりはずれが大きいので気を付けましょう。</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
